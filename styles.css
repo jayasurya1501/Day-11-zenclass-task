@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.event-card {
+    display: flex;
+    width: 400px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.event-photo {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.event-details {
+    flex: 1;
+    text-align: left;
+}
+
+h2, p {
+    margin: 0;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.book-now {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+.sold-out {
+    background-color: #FF0000;
+    color: white;
+}
+
+.sold-out:disabled {
+    background-color: #D3D3D3; 
+    color: #696969;
+}

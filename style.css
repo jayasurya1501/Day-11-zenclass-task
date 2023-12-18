@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.registration-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh; 
+    
+}
+
+.registration-image {
+    flex: 1;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    overflow: hidden;
+}
+
+.registration-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.registration-details {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.confirm-button {
+    background-color: #4CAF50;
+    color: white;
+    margin-right: 10px;
+}
+
+.cancel-button {
+    background-color: #FF0000; 
+    color: white;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register Event</title>
+</head>
+<body>
+    <header>
+        <h1>Register Event</h1>
+    </header>
+    <div class="registration-field">
+        <div class="registration-image">
+            <img src="https://images.inc.com/uploaded_files/image/1920x1080/getty_479977238_253066.jpg" alt="Event Image">
+        </div>
+        <div class="registration-details">
+            <h2>Event Registration</h2>
+            <form action="index.html" method="post">
+                <div class="input-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="seats">Number of Seats:</label>
+                    <input type="number" id="seats" name="seats" required>
+                </div>
+
+                <button type="submit" class="confirm-button">Confirm</button>
+                <button type="button" class="cancel-button" onclick="cancelRegistration()">Cancel</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function cancelRegistration() {
+            window.location.href = 'index.html';
+        }
+    </script>
+
+</body>
+</html>
